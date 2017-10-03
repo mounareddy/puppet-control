@@ -15,3 +15,7 @@ forge "http://forge.puppetlabs.com"
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+#
+mod 'nginx',
+	:git => 'https://github.com/mounareddy/puppet-nginx.git',
+	:ref => 'master',
